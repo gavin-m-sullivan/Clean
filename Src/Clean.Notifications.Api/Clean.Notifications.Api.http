@@ -1,0 +1,6 @@
+@Clean.Notifications.Api_HostAddress = http://localhost:5007
+
+GET {{Clean.Notifications.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

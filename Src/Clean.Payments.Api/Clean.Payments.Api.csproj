@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
+    <PackageReference Include="xunit.v3" Version="4.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clean.Payments.Application.Services\Clean.Payments.Application.Services.csproj" />
+    <ProjectReference Include="..\Clean.Payments.Application\Clean.Payments.Application.csproj" />
+    <ProjectReference Include="..\Clean.Payments.Domain.Services\Clean.Payments.Domain.Services.csproj" />
+    <ProjectReference Include="..\Clean.Payments.Domain\Clean.Payments.Domain.csproj" />
+    <ProjectReference Include="..\Clean.Payments.Infrastructure.Msmq\Clean.Payments.Infrastructure.Msmq.csproj" />
+    <ProjectReference Include="..\Clean.Payments.Infrastructure.SqlServer\Clean.Payments.Infrastructure.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>

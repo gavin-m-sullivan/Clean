@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
+    <PackageReference Include="xunit.v3" Version="4.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clean.Contracts.Application.Services\Clean.Contracts.Application.Services.csproj" />
+    <ProjectReference Include="..\Clean.Contracts.Application\Clean.Contracts.Application.csproj" />
+    <ProjectReference Include="..\Clean.Contracts.Domain.Services\Clean.Contracts.Domain.Services.csproj" />
+    <ProjectReference Include="..\Clean.Contracts.Domain\Clean.Contracts.Domain.csproj" />
+    <ProjectReference Include="..\Clean.Contracts.Infrastructure.Msmq\Clean.Contracts.Infrastructure.Msmq.csproj" />
+    <ProjectReference Include="..\Clean.Contracts.Infrastructure.SqlServer\Clean.Contracts.Infrastructure.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>

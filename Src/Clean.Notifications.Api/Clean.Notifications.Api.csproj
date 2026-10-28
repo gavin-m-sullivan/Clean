@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
+    <PackageReference Include="xunit.v3" Version="4.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clean.Notifications.Application.Services\Clean.Notifications.Application.Services.csproj" />
+    <ProjectReference Include="..\Clean.Notifications.Application\Clean.Notifications.Application.csproj" />
+    <ProjectReference Include="..\Clean.Notifications.Domain.Services\Clean.Notifications.Domain.Services.csproj" />
+    <ProjectReference Include="..\Clean.Notifications.Domain\Clean.Notifications.Domain.csproj" />
+    <ProjectReference Include="..\Clean.Notifications.Infrastructure.Msmq\Clean.Notifications.Infrastructure.Msmq.csproj" />
+    <ProjectReference Include="..\Clean.Notifications.Infrastructure.SqlServer\Clean.Notifications.Infrastructure.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>

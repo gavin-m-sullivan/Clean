@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clean.Timesheets.Application.Services\Clean.Timesheets.Application.Services.csproj" />
+    <ProjectReference Include="..\Clean.Timesheets.Application\Clean.Timesheets.Application.csproj" />
+    <ProjectReference Include="..\Clean.Timesheets.Domain.Services\Clean.Timesheets.Domain.Services.csproj" />
+    <ProjectReference Include="..\Clean.Timesheets.Domain\Clean.Timesheets.Domain.csproj" />
+    <ProjectReference Include="..\Clean.Timesheets.Infrastructure.Msmq\Clean.Timesheets.Infrastructure.Msmq.csproj" />
+    <ProjectReference Include="..\Clean.Timesheets.Infrastructure.SqlServer\Clean.Timesheets.Infrastructure.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>

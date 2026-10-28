@@ -1,0 +1,10 @@
+﻿namespace Microsoft.Extensions.DependencyInjection
+{
+    public static class ServiceCollectionExtensions
+    {
+        public static IServiceCollection AddProductsDomainServices(this IServiceCollection services)
+        {
+            return services;
+        }
+    }
+}

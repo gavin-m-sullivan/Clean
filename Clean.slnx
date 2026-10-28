@@ -1,0 +1,182 @@
+<Solution>
+  <Folder Name="/Source/">
+    <Project Path="Src/Clean.Core/Clean.Core.csproj" Id="cabdc0ab-de10-4014-a835-26da89052a79" />
+    <Project Path="Src/CoreTests/CoreTests.csproj" Id="91289cd2-b599-4f5d-a803-a88082cba3bf" />
+  </Folder>
+  <Folder Name="/Source/Accounts/">
+    <Project Path="Src/Clean.Accounts.Api/Clean.Accounts.Api.csproj" Id="d40d8e17-2ed3-4033-b3f6-98261aba4e32" />
+  </Folder>
+  <Folder Name="/Source/Accounts/Application/">
+    <Project Path="Src/Clean.Accounts.Application.Services/Clean.Accounts.Application.Services.csproj" Id="413e36d8-7eac-4eea-a0f7-2f8dcdb7130e" />
+    <Project Path="Src/Clean.Accounts.Application/Clean.Accounts.Application.csproj" Id="3ad9dffb-9442-4570-94c0-8ab168eceafa" />
+    <Project Path="Src/Clean.Accounts.Domain.Services/Clean.Accounts.Domain.Services.csproj" Id="3463ab22-d68b-4856-bc85-589f045723f3" />
+    <Project Path="Src/Clean.Accounts.Domain/Clean.Accounts.Domain.csproj" Id="11726071-c8c9-45b0-878a-d093bdfab678" />
+    <Project Path="Src/Clean.Accounts.Infrastructure.Msmq/Clean.Accounts.Infrastructure.Msmq.csproj" Id="7d389767-4b83-44d9-b249-1a3e7162501b" />
+    <Project Path="Src/Clean.Accounts.Infrastructure.SqlServer/Clean.Accounts.Infrastructure.SqlServer.csproj" Id="1c8bae56-46c9-4380-9cd7-7990ea39ec38" />
+  </Folder>
+  <Folder Name="/Source/Accounts/Requirements/">
+    <Project Path="Src/AccountsRequirements/AccountsRequirements.csproj" Id="ee0a68fc-7f42-45ea-be26-af2e850090f1" />
+  </Folder>
+  <Folder Name="/Source/Accounts/Unit Tests/">
+    <Project Path="Src/AccountsApplicationServicesTests/AccountsApplicationServicesTests.csproj" Id="8f602fcd-739f-4ad2-b948-2354a993a840" />
+    <Project Path="Src/AccountsApplicationTests/AccountsApplicationTests.csproj" Id="3fe2257d-d2e7-4455-9422-9d90c624a59d" />
+    <Project Path="Src/AccountsDomainServicesTests/AccountsDomainServicesTests.csproj" Id="a0ead066-db8b-43cb-8258-58abec8412e9" />
+    <Project Path="Src/AccountsDomainTests/AccountsDomainTests.csproj" Id="fe6ae7c7-ac56-4f6a-a22d-b6038ddd82b9" />
+    <Project Path="Src/AccountsInfrastructureMsmqTests/AccountsInfrastructureMsmqTests.csproj" Id="aa4dc115-b206-4b04-9f6c-64dd7e81ec97" />
+    <Project Path="Src/AccountsInfrastructureSqlServerTests/AccountsInfrastructureSqlServerTests.csproj" Id="cb956bd4-1a37-4b97-b8f7-f07f306d87bc" />
+  </Folder>
+  <Folder Name="/Source/Contracts/">
+    <Project Path="Src/Clean.Contracts.Api/Clean.Contracts.Api.csproj" Id="a9716506-1f9b-4d34-85fc-b8ef863df35e" />
+  </Folder>
+  <Folder Name="/Source/Contracts/Application/">
+    <Project Path="Src/Clean.Contracts.Application.Services/Clean.Contracts.Application.Services.csproj" Id="e84a2448-78ac-47e1-b402-7715bc64d873" />
+    <Project Path="Src/Clean.Contracts.Application/Clean.Contracts.Application.csproj" Id="903e0f5f-f57b-4a56-b5fe-122289c5cf98" />
+    <Project Path="Src/Clean.Contracts.Domain.Services/Clean.Contracts.Domain.Services.csproj" Id="c6cbacdb-5706-478c-a557-c5416d6d11a6" />
+    <Project Path="Src/Clean.Contracts.Domain/Clean.Contracts.Domain.csproj" Id="1ef3b042-a158-4afb-b09f-132b61ff1f58" />
+    <Project Path="Src/Clean.Contracts.Infrastructure.Msmq/Clean.Contracts.Infrastructure.Msmq.csproj" Id="827489a2-f7ff-45f2-97c2-13565a543912" />
+    <Project Path="Src/Clean.Contracts.Infrastructure.SqlServer/Clean.Contracts.Infrastructure.SqlServer.csproj" Id="bfb44ee9-8d14-471d-8993-9de9c16cfe27" />
+  </Folder>
+  <Folder Name="/Source/Contracts/Requirements/">
+    <Project Path="Src/ContractsRequirements/ContractsRequirements.csproj" Id="a5ef1477-74bd-42ca-8ce5-b0106c4a1344" />
+  </Folder>
+  <Folder Name="/Source/Contracts/Unit Tests/">
+    <Project Path="Src/ContractsApplicationServicesTests/ContractsApplicationServicesTests.csproj" Id="523761a4-6d74-485c-b72a-167170cc0ae2" />
+    <Project Path="Src/ContractsApplicationTests/ContractsApplicationTests.csproj" Id="9df883b3-7ee9-4451-adda-f598519e118a" />
+    <Project Path="Src/ContractsDomainServicesTests/ContractsDomainServicesTests.csproj" />
+    <Project Path="Src/ContractsDomainTests/ContractsDomainTests.csproj" />
+    <Project Path="Src/ContractsInfrastructureMsmqTests/ContractsInfrastructureMsmqTests.csproj" Id="6a0d8119-5bab-441f-ad86-166ce6552b14" />
+    <Project Path="Src/ContractsInfrastructureSqlServerTests/ContractsInfrastructureSqlServerTests.csproj" Id="cff5e798-f152-4019-95a8-2c5b3d2bd74e" />
+  </Folder>
+  <Folder Name="/Source/Invoices/">
+    <Project Path="Src/Clean.Invoices.Api/Clean.Invoices.Api.csproj" Id="51015ab7-538a-4b14-b3c4-35dd73ed1341" />
+  </Folder>
+  <Folder Name="/Source/Invoices/Application/">
+    <Project Path="Src/Clean.Invoices.Application.Services/Clean.Invoices.Application.Services.csproj" Id="b873d0fd-bb52-4313-9116-92125a552b13" />
+    <Project Path="Src/Clean.Invoices.Application/Clean.Invoices.Application.csproj" Id="a3011b18-3be5-4fed-b403-aa172d5a0ffe" />
+    <Project Path="Src/Clean.Invoices.Domain.Services/Clean.Invoices.Domain.Services.csproj" Id="03db4f96-cd0b-4e26-b97d-55b6e0a42bf5" />
+    <Project Path="Src/Clean.Invoices.Domain/Clean.Invoices.Domain.csproj" Id="192d8187-cc90-48e3-be90-59286df839a7" />
+    <Project Path="Src/Clean.Invoices.Infrastructure.Msmq/Clean.Invoices.Infrastructure.Msmq.csproj" Id="f2b10678-429a-418f-a76a-2ff07a474132" />
+    <Project Path="Src/Clean.Invoices.Infrastructure.SqlServer/Clean.Invoices.Infrastructure.SqlServer.csproj" Id="81659fca-2efe-4149-862f-7830abd9a936" />
+  </Folder>
+  <Folder Name="/Source/Invoices/Requirements/">
+    <Project Path="Src/InvoicesRequirements/InvoicesRequirements.csproj" Id="7fd03ed7-67ec-42b8-9b35-ec0a070c9926" />
+  </Folder>
+  <Folder Name="/Source/Invoices/Unit Tests/">
+    <Project Path="Src/InvoicesApplicationServicesTests/InvoicesApplicationServicesTests.csproj" Id="cea15ac4-4535-4892-8d4f-8dc9dd706e82" />
+    <Project Path="Src/InvoicesApplicationTests/InvoicesApplicationTests.csproj" Id="ff91b003-ed35-416d-b24e-7a79f287f762" />
+    <Project Path="Src/InvoicesDomainServicesTests/InvoicesDomainServicesTests.csproj" Id="ae46fac8-0896-442d-9e7e-7dd0aba99a48" />
+    <Project Path="Src/InvoicesDomainTests/InvoicesDomainTests.csproj" Id="395df0d8-3908-47a1-bfde-2290b407c0a4" />
+    <Project Path="Src/InvoicesInfrastructureMsmqTests/InvoicesInfrastructureMsmqTests.csproj" Id="d0acc2c7-02b8-4701-892a-778c2c90481c" />
+    <Project Path="Src/InvoicesInfrastructureSqlServerTests/InvoicesInfrastructureSqlServerTests.csproj" Id="5ec63fcf-b7f6-40f6-b468-575753b47537" />
+  </Folder>
+  <Folder Name="/Source/Notifications/">
+    <Project Path="Src/Clean.Notifications.Api/Clean.Notifications.Api.csproj" Id="b00c926d-1ace-4b0e-8c87-f2307890f0c4" />
+  </Folder>
+  <Folder Name="/Source/Notifications/Application/">
+    <Project Path="Src/Clean.Notifications.Application.Services/Clean.Notifications.Application.Services.csproj" Id="f810260c-08b1-4366-a54c-778e61e5ab28" />
+    <Project Path="Src/Clean.Notifications.Application/Clean.Notifications.Application.csproj" Id="9d795ab6-edf3-4fd0-845a-a92fb70023f6" />
+    <Project Path="Src/Clean.Notifications.Domain.Services/Clean.Notifications.Domain.Services.csproj" Id="41a950fd-5218-4bdb-9c3a-aac6ae05fc20" />
+    <Project Path="Src/Clean.Notifications.Domain/Clean.Notifications.Domain.csproj" Id="7a7c625b-888d-4404-8c9a-0b5cf8d78f9c" />
+    <Project Path="Src/Clean.Notifications.Infrastructure.Msmq/Clean.Notifications.Infrastructure.Msmq.csproj" Id="4dcf9735-9d96-4532-aa01-25cd22526991" />
+    <Project Path="Src/Clean.Notifications.Infrastructure.SqlServer/Clean.Notifications.Infrastructure.SqlServer.csproj" Id="81d1e5e9-09cc-4f67-8719-e8ed1ab23b15" />
+  </Folder>
+  <Folder Name="/Source/Notifications/Requirements/">
+    <Project Path="Src/NotificationsRequirements/NotificationsRequirements.csproj" Id="aa3dcc09-db44-4f3b-8cbb-d6104c5e6eec" />
+  </Folder>
+  <Folder Name="/Source/Notifications/Unit Tests/">
+    <Project Path="Src/NotificationsApplicationServicesTests/NotificationsApplicationServicesTests.csproj" Id="b759240a-b34b-47c5-bae5-f60de549cb1e" />
+    <Project Path="Src/NotificationsApplicationTests/NotificationsApplicationTests.csproj" Id="1f3c6b71-53f8-439f-a36c-0904c6c4ae1b" />
+    <Project Path="Src/NotificationsDomainServicesTests/NotificationsDomainServicesTests.csproj" Id="0c98af18-c96f-413d-becd-47f4ef70ec93" />
+    <Project Path="Src/NotificationsDomainTests/NotificationsDomainTests.csproj" Id="f313d24f-897c-49ea-93bc-677de077e980" />
+    <Project Path="Src/NotificationsInfrastructureMsmqTests/NotificationsInfrastructureMsmqTests.csproj" Id="58f505a1-964a-4d18-ab1a-a376767e89b1" />
+    <Project Path="Src/NotificationsInfrastructureSqlServerTests/NotificationsInfrastructureSqlServerTests.csproj" Id="c6563314-051d-496b-a136-6ca3132458d8" />
+  </Folder>
+  <Folder Name="/Source/Orders/">
+    <Project Path="Src/Clean.Orders.Api/Clean.Orders.Api.csproj" Id="0a7ef41f-7df4-47ce-92bb-57c16cf19459" />
+  </Folder>
+  <Folder Name="/Source/Orders/Application/">
+    <Project Path="Src/Clean.Orders.Application.Services/Clean.Orders.Application.Services.csproj" Id="a5e9a31d-daa7-4532-ac71-6a7431af8d01" />
+    <Project Path="Src/Clean.Orders.Application/Clean.Orders.Application.csproj" Id="f7389545-93c6-47a5-829c-18fc4b714b97" />
+    <Project Path="Src/Clean.Orders.Domain.Services/Clean.Orders.Domain.Services.csproj" Id="aaba7046-41d7-48d7-b470-6ccf6853008d" />
+    <Project Path="Src/Clean.Orders.Domain/Clean.Orders.Domain.csproj" Id="59ee788e-51ce-4a3b-b57c-d6956a916e8a" />
+    <Project Path="Src/Clean.Orders.Infrastructure.Msmq/Clean.Orders.Infrastructure.Msmq.csproj" Id="8a81919d-fed0-4e8f-8682-845d3775c7e2" />
+    <Project Path="Src/Clean.Orders.Infrastructure.SqlServer/Clean.Orders.Infrastructure.SqlServer.csproj" Id="d45ba701-dc0b-4738-98aa-834df2d8f34f" />
+  </Folder>
+  <Folder Name="/Source/Orders/Requirements/">
+    <Project Path="Src/OrdersRequirements/OrdersRequirements.csproj" Id="031916b8-1042-4797-a11e-71f01f4f1dea" />
+  </Folder>
+  <Folder Name="/Source/Orders/Unit Tests/">
+    <Project Path="Src/OrdersApplicationServicesTests/OrdersApplicationServicesTests.csproj" Id="3d93136d-5cd3-4d12-9084-a2f4c58b1b0b" />
+    <Project Path="Src/OrdersApplicationTests/OrdersApplicationTests.csproj" Id="7a6325aa-d289-4383-8f56-68972706a550" />
+    <Project Path="Src/OrdersDomainServicesTests/OrdersDomainServicesTests.csproj" Id="26f740ac-40a6-4a98-82ed-cc919b7a761e" />
+    <Project Path="Src/OrdersDomainTests/OrdersDomainTests.csproj" Id="bf2fe512-4be3-408d-ba6d-8d5c28c0525e" />
+    <Project Path="Src/OrdersInfrastructureMsmqTests/OrdersInfrastructureMsmqTests.csproj" Id="a6596e8b-c055-4144-8b87-ef077472de0e" />
+    <Project Path="Src/OrdersInfrastructureSqlServerTests/OrdersInfrastructureSqlServerTests.csproj" Id="b5ee44ad-d073-4c5f-80ac-421aeb834459" />
+  </Folder>
+  <Folder Name="/Source/Payments/">
+    <Project Path="Src/Clean.Payments.Api/Clean.Payments.Api.csproj" Id="10255796-4e84-4ca6-9dab-744fa7ce4934" />
+  </Folder>
+  <Folder Name="/Source/Payments/Application/">
+    <Project Path="Src/Clean.Payments.Application.Services/Clean.Payments.Application.Services.csproj" Id="66cb43bb-4f6e-4ad1-94c4-687fdb63f557" />
+    <Project Path="Src/Clean.Payments.Application/Clean.Payments.Application.csproj" Id="04aab0a1-34bf-4587-b419-882160da62ed" />
+    <Project Path="Src/Clean.Payments.Domain.Services/Clean.Payments.Domain.Services.csproj" Id="d5be4f84-3790-4a8f-810f-cbe0b64b8234" />
+    <Project Path="Src/Clean.Payments.Domain/Clean.Payments.Domain.csproj" Id="c79f131c-1e0e-491a-910d-917b50186b7c" />
+    <Project Path="Src/Clean.Payments.Infrastructure.Msmq/Clean.Payments.Infrastructure.Msmq.csproj" Id="2b8d8ab8-7ba5-45ab-ae76-a7a2f8eccbfd" />
+    <Project Path="Src/Clean.Payments.Infrastructure.SqlServer/Clean.Payments.Infrastructure.SqlServer.csproj" Id="eada7579-eddb-4c1d-ab31-05d9400bac8a" />
+  </Folder>
+  <Folder Name="/Source/Payments/Requirements/">
+    <Project Path="Src/PaymentsRequirements/PaymentsRequirements.csproj" Id="1fb024f8-04c8-4be7-9b77-9cf808734c10" />
+  </Folder>
+  <Folder Name="/Source/Payments/Unit Tests/">
+    <Project Path="Src/PaymentsApplicationServicesTests/PaymentsApplicationServicesTests.csproj" Id="287b875f-d770-4ef4-ad3b-058dd72fd3bb" />
+    <Project Path="Src/PaymentsApplicationTests/PaymentsApplicationTests.csproj" Id="77b91f70-67f7-41a1-9ae0-cf2e6c896210" />
+    <Project Path="Src/PaymentsDomainServicesTests/PaymentsDomainServicesTests.csproj" Id="db6fad4c-423a-4aab-83bc-1d712271f317" />
+    <Project Path="Src/PaymentsDomainTests/PaymentsDomainTests.csproj" Id="40f2b390-f141-4725-a670-15105aca72e6" />
+    <Project Path="Src/PaymentsInfrastructureMsmqTests/PaymentsInfrastructureMsmqTests.csproj" Id="5b6b586f-bf73-48f9-bfb5-911a4c065821" />
+    <Project Path="Src/PaymentsInfrastructureSqlServer/PaymentsInfrastructureSqlServer.csproj" Id="4280ac36-f5d9-4c7f-bb5a-9666f8213122" />
+  </Folder>
+  <Folder Name="/Source/Products/">
+    <Project Path="Src/Clean.Products.Api/Clean.Products.Api.csproj" Id="ad85c1d3-fdd8-4351-9d22-98d7e69c184b" />
+  </Folder>
+  <Folder Name="/Source/Products/Application/">
+    <Project Path="Src/Clean.Products.Application.Services/Clean.Products.Application.Services.csproj" Id="b2af5e8c-2eb3-40c5-8731-b4af91962c99" />
+    <Project Path="Src/Clean.Products.Application/Clean.Products.Application.csproj" Id="ad39d2e3-2d62-47cb-8968-6e6fd47bc09b" />
+    <Project Path="Src/Clean.Products.Domain.Services/Clean.Products.Domain.Services.csproj" Id="ef511821-15ac-4177-aadb-d2a9c9ec4bc2" />
+    <Project Path="Src/Clean.Products.Domain/Clean.Products.Domain.csproj" Id="a15584ec-ff9c-4886-8d78-ce8503f82cbc" />
+    <Project Path="Src/Clean.Products.Infrastructure.Msmq/Clean.Products.Infrastructure.Msmq.csproj" Id="a0138509-7fdd-4391-9de1-fdd3baa4398b" />
+    <Project Path="Src/Clean.Products.Infrastructure.SqlServer/Clean.Products.Infrastructure.SqlServer.csproj" Id="739edafb-c888-413d-9e28-4cd0fb20cf9d" />
+  </Folder>
+  <Folder Name="/Source/Products/Requirements/">
+    <Project Path="Src/ProductsRequirements/ProductsRequirements.csproj" Id="0fea066d-8efb-49d0-b01c-5cb3cf65af26" />
+  </Folder>
+  <Folder Name="/Source/Products/Unit Tests/">
+    <Project Path="Src/ProductsApplicationServicesTests/ProductsApplicationServicesTests.csproj" Id="800134c6-9f1b-4c3c-a94d-47229fdc0516" />
+    <Project Path="Src/ProductsApplicationTests/ProductsApplicationTests.csproj" Id="a7c11937-3e7b-40b9-bb37-b2aa5bb66773" />
+    <Project Path="Src/ProductsDomainServicesTests/ProductsDomainServicesTests.csproj" Id="3868482c-e366-4a6c-a971-7e6a329f500f" />
+    <Project Path="Src/ProductsDomainTests/ProductsDomainTests.csproj" Id="3a3f5147-4b72-4dea-8fa1-0bea519736c6" />
+    <Project Path="Src/ProductsInfrastructureMsmqTests/ProductsInfrastructureMsmqTests.csproj" Id="221490ce-c8c9-4447-9881-7033d927ae0f" />
+    <Project Path="Src/ProductsInfrastructureSqlServerTests/ProductsInfrastructureSqlServerTests.csproj" Id="e4cc4407-1c44-4e5b-b766-17042a173aed" />
+  </Folder>
+  <Folder Name="/Source/Timesheets/">
+    <Project Path="Src/Clean.Timesheets.Api/Clean.Timesheets.Api.csproj" Id="26d7a7ed-c5be-4b30-91e8-2ad7f5f21573" />
+  </Folder>
+  <Folder Name="/Source/Timesheets/Application/">
+    <Project Path="Src/Clean.Timesheets.Application.Services/Clean.Timesheets.Application.Services.csproj" Id="5b30bc26-60f9-4caf-87f9-b199270277b5" />
+    <Project Path="Src/Clean.Timesheets.Application/Clean.Timesheets.Application.csproj" Id="c4f597fc-fab6-4615-ade2-d4f059e122e3" />
+    <Project Path="Src/Clean.Timesheets.Domain.Services/Clean.Timesheets.Domain.Services.csproj" Id="b270f168-9851-4b91-8994-62c6c33802e5" />
+    <Project Path="Src/Clean.Timesheets.Domain/Clean.Timesheets.Domain.csproj" Id="2a13f970-2474-47aa-8343-6caec37aaabc" />
+    <Project Path="Src/Clean.Timesheets.Infrastructure.Msmq/Clean.Timesheets.Infrastructure.Msmq.csproj" Id="2175c57f-5b7e-4289-90fd-a1236fe43873" />
+    <Project Path="Src/Clean.Timesheets.Infrastructure.SqlServer/Clean.Timesheets.Infrastructure.SqlServer.csproj" Id="d6484d36-fcfd-4fe8-acd4-ee26c6c27cbb" />
+  </Folder>
+  <Folder Name="/Source/Timesheets/Requirements/">
+    <Project Path="Src/TimesheetsRequirements/TimesheetsRequirements.csproj" Id="b9eda9b7-a876-4c42-ae6a-f47cdc5966a3" />
+  </Folder>
+  <Folder Name="/Source/Timesheets/Unit Tests/">
+    <Project Path="Src/TimesheetsApplicationServicesTests/TimesheetsApplicationServicesTests.csproj" Id="1cdd0d7b-cbd1-4f56-9a0d-7da7286a5791" />
+    <Project Path="Src/TimesheetsApplicationTests/TimesheetsApplicationTests.csproj" Id="a793fc11-2ce3-4b61-8e80-21c78afc3660" />
+    <Project Path="Src/TimesheetsDomainServicesTests/TimesheetsDomainServicesTests.csproj" Id="4806f02c-a592-47e6-89c5-b53c79981396" />
+    <Project Path="Src/TimesheetsDomainTests/TimesheetsDomainTests.csproj" Id="2bf5c7f8-54f6-4a07-a6b9-21c28b5b3bba" />
+    <Project Path="Src/TimesheetsInfrastructureMsmqTests/TimesheetsInfrastructureMsmqTests.csproj" Id="385b1e7e-0ac0-4685-9b82-ef9971a53c0c" />
+    <Project Path="Src/TimesheetsInfrastructureSqlServerTests/TimesheetsInfrastructureSqlServerTests.csproj" Id="dc790d4a-e387-4729-8ab4-49455a2b7e5d" />
+  </Folder>
+</Solution>
