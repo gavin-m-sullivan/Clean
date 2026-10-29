@@ -14,8 +14,4 @@
     <Folder Include="Services\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="xunit.v3" Version="4.0.2" />
-  </ItemGroup>
-
 </Project>
